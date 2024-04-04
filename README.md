@@ -12,7 +12,14 @@
 #### Add this DLL file to environment variable.
 ![img.png](screenshot%2Fimg.png)
 ![img_1.png](screenshot%2Fimg_1.png)
-#### You can find this dll inside {opencv_folder}\build\java\x64
+#### You can find this dll inside ```{opencv_folder}\build\java\x64```
+#### Add dependency to your project
+```    <dependency>
+      <groupId>org.openpnp</groupId>
+      <artifactId>opencv</artifactId>
+      <version>[4.3.0,)</version>
+    </dependency> 
+   ```
 
 ### You can run this code and print OpenCV version.
 
